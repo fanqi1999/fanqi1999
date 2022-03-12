@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://fanqi1999.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://fanqi1999.github.io/"/>
+  <updated>2022-03-12T07:03:49.917Z</updated>
+  <id>http://fanqi1999.github.io/</id>
+  
+  <author>
+    <name>fan qi</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>awk工具</title>
+    <link href="http://fanqi1999.github.io/2022/03/12/awk%E5%B7%A5%E5%85%B7/"/>
+    <id>http://fanqi1999.github.io/2022/03/12/awk%E5%B7%A5%E5%85%B7/</id>
+    <published>2022-03-12T06:54:36.000Z</published>
+    <updated>2022-03-12T07:03:49.917Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;awk工具&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一、awk工具介绍&lt;/strong&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>sed工具</title>
+    <link href="http://fanqi1999.github.io/2022/03/12/sed%E5%B7%A5%E5%85%B7/"/>
+    <id>http://fanqi1999.github.io/2022/03/12/sed%E5%B7%A5%E5%85%B7/</id>
+    <published>2022-03-12T06:50:41.000Z</published>
+    <updated>2022-03-12T06:54:27.403Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;sed工具&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一、sed工具介绍&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;流编辑器&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;作用&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;编辑文本文件&lt;/li&gt;
+&lt;/ul</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>“grep工具”</title>
+    <link href="http://fanqi1999.github.io/2022/03/12/grep%E5%B7%A5%E5%85%B7/"/>
+    <id>http://fanqi1999.github.io/2022/03/12/grep%E5%B7%A5%E5%85%B7/</id>
+    <published>2022-03-12T06:48:07.000Z</published>
+    <updated>2022-03-12T06:49:00.976Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;一、grep&lt;/strong&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;作用&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;按条件过滤文件内容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用格式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;grep</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>pxe自动部署</title>
+    <link href="http://fanqi1999.github.io/2022/03/12/pxe%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/"/>
+    <id>http://fanqi1999.github.io/2022/03/12/pxe%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</id>
+    <published>2022-03-12T06:27:04.000Z</published>
+    <updated>2022-03-12T06:35:22.994Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>nginx配置网站服务</title>
+    <link href="http://fanqi1999.github.io/2022/03/12/nginx%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1/"/>
+    <id>http://fanqi1999.github.io/2022/03/12/nginx%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1/</id>
+    <published>2022-03-12T05:56:22.000Z</published>
+    <updated>2022-03-12T06:25:16.712Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;一、nginx安装部署&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1、下载nginx安装包&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://fanqi1999.github.io/2022/03/12/hello-world/"/>
+    <id>http://fanqi1999.github.io/2022/03/12/hello-world/</id>
+    <published>2022-03-12T02:06:44.908Z</published>
+    <updated>2022-03-12T02:06:44.908Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
