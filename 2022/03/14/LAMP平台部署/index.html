@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>Hello World | Hexo</title>
+  <title>LAMP平台部署 | Hexo</title>
 
   <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -410,21 +410,21 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('/medias/7.jpg')">
+  background-position: center center;position: relative;background-image:url('/medias/15.jpg')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        Hello World
+        LAMP平台部署
       </span>
     </div>
     
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> 发表于：2022-03-12 |
+          <i class="fas fa-calendar"></i> 发表于：2022-03-14 |
         </span>
       
 
@@ -448,19 +448,46 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+        <p><strong>LAMP平台应用</strong></p>
+<p><strong>一、LAMP平台介绍</strong></p>
+<ul>
+<li><p>Linux、Apache、MySQL、php</p>
+</li>
+<li><p>作用</p>
+</li>
+<li><ul>
+<li>部署php应用网站</li>
+</ul>
+</li>
+</ul>
+<p><strong>二、部署LAMP平台</strong> </p>
+<p><strong>1、安装lamp平台相关软件</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@bogon ~]# yum install -y httpd php mariadb-server php-mysql gd php-gd php-devel</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p><strong>2、编辑httpd配置文件 、启动服务</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[root@bogon ~]# rm -rf /etc/httpd/conf.d/welcome.conf  </span><br><span class="line">[root@bogon ~]# vim /etc/httpd/conf/httpd.conf </span><br><span class="line">DirectoryIndex index.php index.html </span><br><span class="line">[root@bogon ~]# systemctl start httpd mariadb </span><br><span class="line">[root@bogon ~]# systemctl enable httpd mariadb</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p><strong>3、测试lamp平台是否正常</strong></p>
+<p><strong>1) 测试是否正常解析PHP页面</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@bogon ~]# vim /var/www/html/test1.php </span><br><span class="line">&lt;?php  phpinfo(); ?&gt;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p><strong>2) 测试php代码是否正常连接数据库</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[root@bogon ~]# cat /var/www/html/test2.php </span><br><span class="line">&lt;?php   </span><br><span class="line">$link=mysql_connect(&quot;localhost&quot;, &quot;root&quot;, &quot;&quot;);   </span><br><span class="line">	if ($link)       </span><br><span class="line">	echo &quot;ok!!!!&quot;;   </span><br><span class="line">	else       </span><br><span class="line">	echo &quot;Error!!!!&quot;;   </span><br><span class="line">mysql_close(); </span><br><span class="line">?&gt;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p><strong>三、部署wordpress论坛</strong> </p>
+<ul>
+<li>php语言编写的博客模板</li>
+</ul>
+<p><strong>1、创建wordpress虚拟主机</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[root@bogon ~]# vim /etc/httpd/conf.d/wordpress.conf &lt;VirtualHost 192.168.245.130:80&gt;     </span><br><span class="line">ServerName wordpress.linux.com     </span><br><span class="line">DocumentRoot /wordpress     </span><br><span class="line">ErrorLog /var/log/httpd/wp_error.log     </span><br><span class="line">CustomLog /var/log/httpd/wp_access.log combined </span><br><span class="line">&lt;/VirtualHost&gt; </span><br><span class="line"></span><br><span class="line">&lt;Directory /wordpress&gt;    </span><br><span class="line">Require all granted </span><br><span class="line">&lt;/Directory&gt;</span><br></pre></td></tr></table></figure>
+
+<p><strong>2、部署wordpress项目文件</strong>  </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@bogon ~]# tar xf wordpress-5.2.3.tar.gz  </span><br><span class="line">[root@bogon ~]# cp -r wordpress/* /wordpress/ </span><br><span class="line">[root@bogon ~]# ls /wordpress/ </span><br><span class="line">index.php    wp-activate.php     wp-comments-post.php  wp-cron.php        wp-load.php   wp-settings.php   xmlrpc.php license.txt  wp-admin            wp-config-sample.php  wp-includes        wp-login.php  wp-signup.php readme.html  wp-blog-header.php  wp-content            wp-links-opml.php  wp-mail.php   wp-trackback.php</span><br></pre></td></tr></table></figure>
+
+<p><strong>3、创建wordpress需要的库</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">MariaDB [(none)]&gt; create database wordpress charset utf8; </span><br><span class="line">Query OK, 1 row affected (0.00 sec) </span><br><span class="line">MariaDB [(none)]&gt; create user &#x27;wpuser&#x27;@&quot;localhost&quot; identified by &#x27;redhat&#x27;; </span><br><span class="line">Query OK, 0 rows affected (0.00 sec) </span><br><span class="line">MariaDB [(none)]&gt; grant all on wordpress.* to &#x27;wpuser&#x27;@&quot;localhost&quot;; </span><br><span class="line">Query OK, 0 rows affected (0.00 sec) </span><br><span class="line">MariaDB [(none)]&gt; flush privileges; </span><br><span class="line">Query OK, 0 rows affected (0.00 sec)</span><br></pre></td></tr></table></figure>
+
+<p><strong>4、Windows上访问wordpress.linux.com</strong></p>
 
       </div>
       <div class="post-tags-categories">
@@ -474,7 +501,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/2022/03/12/hello-world/" target="_blank" title="Hello World">http://fanqi1999.github.io/2022/03/12/hello-world/</a>
+    <a href="/2022/03/14/LAMP平台部署/" target="_blank" title="LAMP平台部署">http://fanqi1999.github.io/2022/03/14/LAMP平台部署/</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -496,23 +523,47 @@
   <div class="post-nav-prev post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="/medias/11.jpg" class="lazyload placeholder" data-srcset="/medias/11.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+      <img class="lazyload lazyload placeholder" src="/medias/5.jpg" class="lazyload placeholder" data-srcset="/medias/5.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
     </div>
-    <a href="/2022/03/12/nginx%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1/" class="post-nav-link">
+    <a href="/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/" class="post-nav-link">
       <div class="title">
         <i class="fas fa-angle-left"></i> 上一篇:
-        <div class="title-text">nginx配置网站服务</div>
+        <div class="title-text">LNMP平台部署</div>
       </div>
       
       <!-- <div class="content">
-        一、nginx安装部署
-1、下载nginx安装包
-1[root@localhost ~]# wget http://ng
+        一、LNMP平台部署
+1、RPM包部署LNMP平台
+1) 下载epel源
+123[root@localhost ~]# 
       </div> -->
     </a>
   </div>
 
 
+
+  
+  <div class="post-nav-next post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="/medias/6.jpg" class="lazyload placeholder" data-srcset="/medias/6.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" src="" alt="">
+    </div>
+    <a href="/2022/03/12/awk%E5%B7%A5%E5%85%B7/" class="post-nav-link">
+      <div class="title">
+        下一篇: <i class="fas fa-angle-right"></i>
+        <div class="title-text">awk工具</div>
+      </div>
+      <!-- <div class="content">
+        awk工具
+一、awk工具介绍 
+
+工作流程
+
+
+默认情况下，awk可以使用空白字符分割文本, awk内部可以分别$1,
+      </div> -->
+    </a>
+  </div>
 
 </div>
 

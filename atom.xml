@@ -6,7 +6,7 @@
   <link href="http://fanqi1999.github.io/atom.xml" rel="self"/>
   
   <link href="http://fanqi1999.github.io/"/>
-  <updated>2022-03-12T07:03:49.917Z</updated>
+  <updated>2022-03-14T06:17:19.793Z</updated>
   <id>http://fanqi1999.github.io/</id>
   
   <author>
@@ -15,6 +15,82 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MySQL主从复制、读写分离</title>
+    <link href="http://fanqi1999.github.io/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/"/>
+    <id>http://fanqi1999.github.io/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/</id>
+    <published>2022-03-14T06:15:27.000Z</published>
+    <updated>2022-03-14T06:17:19.793Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;一、 主从复制&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1、环境描述&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;192.168.245.131        Master服务器&lt;/p&gt;
+&lt;p&gt;192.168.245.132        Slave服务器</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>LNMP平台部署</title>
+    <link href="http://fanqi1999.github.io/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/"/>
+    <id>http://fanqi1999.github.io/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/</id>
+    <published>2022-03-14T06:14:05.000Z</published>
+    <updated>2022-03-14T06:14:22.197Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;一、LNMP平台部署&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1、RPM包部署LNMP平台&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1) 下载epel源&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>LAMP平台部署</title>
+    <link href="http://fanqi1999.github.io/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/"/>
+    <id>http://fanqi1999.github.io/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/</id>
+    <published>2022-03-14T06:13:29.000Z</published>
+    <updated>2022-03-14T06:13:55.903Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;LAMP平台应用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一、LAMP平台介绍&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Linux、Apache、MySQL、php&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;作用&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;ul</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>awk工具</title>
@@ -136,27 +212,6 @@
     <summary type="html">&lt;p&gt;&lt;strong&gt;一、nginx安装部署&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1、下载nginx安装包&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://fanqi1999.github.io/2022/03/12/hello-world/"/>
-    <id>http://fanqi1999.github.io/2022/03/12/hello-world/</id>
-    <published>2022-03-12T02:06:44.908Z</published>
-    <updated>2022-03-12T02:06:44.908Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
         
       
     
