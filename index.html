@@ -43,6 +43,10 @@
 
   
   
+    
+<link rel="stylesheet" href="/js/fancybox/jquery.fancybox.min.css">
+
+  
   
     
 <link rel="stylesheet" href="/js/shareJs/share.min.css">
@@ -521,47 +525,210 @@
 
 
 
-<div class="swiper-length" style="display: none;">0</div>
+<div class="swiper-length" style="display: none;">4</div>
 <div id="appSwiper"
-  class="swiper-no-swiping"
+  class=""
   @mouseenter="stopAutoPlay()" 
   @mouseleave="startAutoPlay()"
 >
   <swiper v-cloak ref="mySwiper" :options="swiperOptions" @slideChangeTransitionEnd="slideChangeTransitionEnd">
     
-      <swiper-slide>
-        <div class="item swiper-lazy" data-background="https://img11.360buyimg.com/ddimg/jfs/t1/160978/33/20686/2476596/6083e62dEa588862b/63f8f2163ab61b2f.png" style="background-size: 300000px; 
-          background-position: left center;" style="position: relative;">
-          <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
-            <div class="flag">
-              
-              <div class="img-mask swiper-lazy swiper-default-bgImg" data-background="https://img11.360buyimg.com/ddimg/jfs/t1/160978/33/20686/2476596/6083e62dEa588862b/63f8f2163ab61b2f.png" style="height: 100%; background-size: cover; 
-                background-position: center center;">
-                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>   
-              </div>
-              <div class="flag-text">
-                <div class="flag-text-content">
-                  <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">青墨书晚风</div>
-                  
-                    <div class="ani animated default-excerpt" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
-                      <vue-typed-js :strings="defaultDesc" :loop="defaultDescTypedLoop" :type-speed="100" :back-speed="50">
-                        <h1 class="typing"></h1>
-                      </vue-typed-js>
-                    </div>
-                    
+      
+        <swiper-slide>
+          <div class="item swiper-lazy" data-background="https://img11.360buyimg.com/ddimg/jfs/t1/160978/33/20686/2476596/6083e62dEa588862b/63f8f2163ab61b2f.png" style="background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+            <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag">
+                
+                <div class="img-mask swiper-lazy swiper-default-bgImg" data-background="https://img11.360buyimg.com/ddimg/jfs/t1/160978/33/20686/2476596/6083e62dEa588862b/63f8f2163ab61b2f.png" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>   
                 </div>
-                <div style="display: flex;" class="flag-text-btns">
-                  
-                    <div class="ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a target="_blank" rel="noopener" href="https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读文档</a></div>
-                  
-                  
-                    <div class="ani animated" style="margin-left: 10px;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a target="_blank" rel="noopener" href="https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip" class="read-more swiper-btn-color2" style="display: inline-block; z-index:1;border: 1px solid white;">下载主题</a></div>
-                  
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">青墨书晚风</div>
+                    
+                      <div  class="ani animated default-excerpt" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                        <vue-typed-js :strings="defaultDesc" :loop="defaultDescTypedLoop" :type-speed="100" :back-speed="50">
+                          <h1 class="typing"></h1>
+                        </vue-typed-js>
+                      </div>
+                      
+                  </div>
+                  <div style="display: flex;" class="flag-text-btns">
+                    
+                      <div class="ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a target="_blank" rel="noopener" href="https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读文档</a></div>
+                    
+                    
+                      <div class="ani animated" style="margin-left: 10px;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a target="_blank" rel="noopener" href="https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip" class="read-more swiper-btn-color2" style="display: inline-block; z-index:1;border: 1px solid white;">下载主题</a></div>
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+        </swiper-slide>
+      
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/mySwiper/img/3.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/mySwiper/img/3.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/">
+                        MySQL主从复制、读写分离
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">一、 主从复制
+1、环境描述
+192.168.245.131        Master服务器
+192.168.245.132        Slave服务器 
+2、关闭SELinux， 防火墙、时间同步 （可自行百度）
+3、在Master</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
                 </div>
               </div>
             </div>
-          </div>
-      </swiper-slide>
+
+          </swiper-slide>
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/mySwiper/img/2.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/mySwiper/img/2.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/">
+                        LNMP平台部署
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">一、LNMP平台部署
+1、RPM包部署LNMP平台
+1) 下载epel源
+123[root@localhost ~]# wget -O /etc/yum.repos.d/CentOS-Base.repo [root@localhost ~]</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
+                </div>
+              </div>
+            </div>
+
+          </swiper-slide>
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/mySwiper/img/1.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/mySwiper/img/1.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/">
+                        LAMP平台部署
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">LAMP平台应用
+一、LAMP平台介绍
+
+Linux、Apache、MySQL、php
+
+作用
+
+
+部署php应用网站
+
+
+
+二、部署LAMP平台 
+1、安装lamp平台相关软件
+1[root@bogon ~]# yum install -</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
+                </div>
+              </div>
+            </div>
+
+          </swiper-slide>
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+          
+          <swiper-slide>
+            <div class="item swiper-lazy" data-background="/mySwiper/img/4.jpg" style=" background-size: 300000px; 
+            background-position: left center;" style="position: relative;">
+              <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
+              <div class="flag" style="z-index: 2;">
+                <div class="img-mask swiper-lazy" data-background="/mySwiper/img/4.jpg" style="height: 100%; background-size: cover; 
+                  background-position: center center;">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>  
+                </div>
+                <div class="flag-text">
+                  <div class="flag-text-content">
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
+                      <a href="/2022/03/12/nginx%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1/">
+                        nginx配置网站服务
+                      </a>
+                    </div>
+                    <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">一、nginx安装部署
+1、下载nginx安装包
+1[root@localhost ~]# wget http://nginx.org/download/nginx-1.18.0.tar.gz
+
+
+
+2、安装依赖
+1[root@localh</div>
+                  </div>
+                  <div class="bottom-one-btn ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a href="/2022/03/12/nginx%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1/" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读更多</a></div>
+                </div>
+              </div>
+            </div>
+
+          </swiper-slide>
+        
+      
+    <div class="swiper-pagination" slot="pagination" pointer style="display: none;"></div>
+    <div class="swiper-button-prev swiper-button-white" pointer slot="button-prev" style=""></div>
+    <div class="swiper-button-next swiper-button-white" pointer slot="button-next" style=""></div>
     
   </swiper>
   
@@ -1130,19 +1297,6 @@
   <div class="l_content">
     <!-- 自定义的内容 -->
     
-  
-    <div class="widget welcome" id="welcome" style="order: -1;background: #fff">
-      <header>
-        
-          <a style="color: blue" target="_blank" rel="noopener" href='http://baidu.com'><i class="fas fa-envelope fa-fw" aria-hidden="true"></i><span class='name'>欢迎</span></a>
-        
-      </header>
-      <div class="content">
-        <img src="https://api.amogu.cn/api/ipimg/" class="lazyload placeholder" data-srcset="https://api.amogu.cn/api/ipimg/" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" style="width:100%">
-      </div>
-  </div>
-  
-
     <!-- 首页座右铭 -->
     
   <div class="motto">
@@ -1368,7 +1522,81 @@
 	<div class="articles">
 		
 			
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/mySwiper/img/4.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/4.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/">MySQL主从复制、读写分离</a></div>
+							<div class="content">
+								一、 主从复制
+1、环境描述
+192.168.245.131        Master服务器
+192.168.245.
+							</div>
+						</div>
+						<a href="/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
+			
 		
+			
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/mySwiper/img/1.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/1.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/">LNMP平台部署</a></div>
+							<div class="content">
+								一、LNMP平台部署
+1、RPM包部署LNMP平台
+1) 下载epel源
+123[root@localhost ~]# 
+							</div>
+						</div>
+						<a href="/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
+			
+		
+			
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/mySwiper/img/2.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/2.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/">LAMP平台部署</a></div>
+							<div class="content">
+								LAMP平台应用
+一、LAMP平台介绍
+
+Linux、Apache、MySQL、php
+
+作用
+
+
+部署php应用网站
+
+							</div>
+						</div>
+						<a href="/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
 			
 		
 			
@@ -1380,7 +1608,26 @@
 			
 		
 			
-		
+				<div class="article-link">
+					
+					<div class="article" style="background-size: cover; 
+						background-position: center center;">
+						<img class="lazyload lazyload placeholder" src="/mySwiper/img/3.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/3.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+					</div>
+					<div class="text">
+						<div class="text-main">
+							<div class="title"><a href="/2022/03/12/nginx%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1/">nginx配置网站服务</a></div>
+							<div class="content">
+								一、nginx安装部署
+1、下载nginx安装包
+1[root@localhost ~]# wget http://ng
+							</div>
+						</div>
+						<a href="/2022/03/12/nginx%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1/" class="more">
+							<i class="fas fa-eye" aria-hidden="true"></i>阅读更多
+						</a>
+					</div>
+				</div>
 			
 		
 	</div>
@@ -1408,9 +1655,17 @@
             <div class="post-tags">
               <!-- 文章详情页的标签 -->
 
+    <i class="iconfont icontag"></i>
+    <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo-theme-bamboo/" rel="tag">hexo-theme-bamboo</a></li></ul>
+
             </div>
             <div class="post-categories">
               <!-- 文章详情页的分类 -->
+
+<div class="article-category">
+  <i class="iconfont iconbookmark1"></i>
+  <a class="article-category-link" href="/categories/%E8%BF%90%E7%BB%B4/">运维</a>
+</div>
 
 
             </div>
@@ -1418,7 +1673,7 @@
           <div class="post-img-mobile">
             <a href="/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/" style="background-size: cover; 
               background-position: center center;">
-              <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+              <img class="lazyload lazyload placeholder" src="/mySwiper/img/4.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/4.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
             </a>
           </div>
           <div class="post-content">
@@ -1439,7 +1694,7 @@
       <div class="post-img">
         <a href="/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/" style="background-size: cover; 
           background-position: center center;">
-          <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+          <img class="lazyload lazyload placeholder" src="/mySwiper/img/4.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/4.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
         </a>
       </div>
     </article>
@@ -1459,9 +1714,17 @@
             <div class="post-tags">
               <!-- 文章详情页的标签 -->
 
+    <i class="iconfont icontag"></i>
+    <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo-theme-bamboo/" rel="tag">hexo-theme-bamboo</a></li></ul>
+
             </div>
             <div class="post-categories">
               <!-- 文章详情页的分类 -->
+
+<div class="article-category">
+  <i class="iconfont iconbookmark1"></i>
+  <a class="article-category-link" href="/categories/%E8%BF%90%E7%BB%B4/">运维</a>
+</div>
 
 
             </div>
@@ -1469,7 +1732,7 @@
           <div class="post-img-mobile">
             <a href="/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/" style="background-size: cover; 
               background-position: center center;">
-              <img class="lazyload lazyload placeholder" src="/medias/5.jpg" class="lazyload placeholder" data-srcset="/medias/5.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+              <img class="lazyload lazyload placeholder" src="/mySwiper/img/1.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/1.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
             </a>
           </div>
           <div class="post-content">
@@ -1488,7 +1751,7 @@
       <div class="post-img">
         <a href="/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/" style="background-size: cover; 
           background-position: center center;">
-          <img class="lazyload lazyload placeholder" src="/medias/5.jpg" class="lazyload placeholder" data-srcset="/medias/5.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+          <img class="lazyload lazyload placeholder" src="/mySwiper/img/1.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/1.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
         </a>
       </div>
     </article>
@@ -1508,9 +1771,17 @@
             <div class="post-tags">
               <!-- 文章详情页的标签 -->
 
+    <i class="iconfont icontag"></i>
+    <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo-theme-bamboo/" rel="tag">hexo-theme-bamboo</a></li></ul>
+
             </div>
             <div class="post-categories">
               <!-- 文章详情页的分类 -->
+
+<div class="article-category">
+  <i class="iconfont iconbookmark1"></i>
+  <a class="article-category-link" href="/categories/%E8%BF%90%E7%BB%B4/">运维</a>
+</div>
 
 
             </div>
@@ -1518,7 +1789,7 @@
           <div class="post-img-mobile">
             <a href="/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/" style="background-size: cover; 
               background-position: center center;">
-              <img class="lazyload lazyload placeholder" src="/medias/15.jpg" class="lazyload placeholder" data-srcset="/medias/15.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+              <img class="lazyload lazyload placeholder" src="/mySwiper/img/2.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/2.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
             </a>
           </div>
           <div class="post-content">
@@ -1548,7 +1819,7 @@ Linux、Apache、MySQL、php
       <div class="post-img">
         <a href="/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/" style="background-size: cover; 
           background-position: center center;">
-          <img class="lazyload lazyload placeholder" src="/medias/15.jpg" class="lazyload placeholder" data-srcset="/medias/15.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+          <img class="lazyload lazyload placeholder" src="/mySwiper/img/2.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/2.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
         </a>
       </div>
     </article>
@@ -1817,9 +2088,17 @@ PATTERN  模式
             <div class="post-tags">
               <!-- 文章详情页的标签 -->
 
+    <i class="iconfont icontag"></i>
+    <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo-theme-bamboo/" rel="tag">hexo-theme-bamboo</a></li></ul>
+
             </div>
             <div class="post-categories">
               <!-- 文章详情页的分类 -->
+
+<div class="article-category">
+  <i class="iconfont iconbookmark1"></i>
+  <a class="article-category-link" href="/categories/%E8%BF%90%E7%BB%B4/">运维</a>
+</div>
 
 
             </div>
@@ -1827,7 +2106,7 @@ PATTERN  模式
           <div class="post-img-mobile">
             <a href="/2022/03/12/nginx%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1/" style="background-size: cover; 
               background-position: center center;">
-              <img class="lazyload lazyload placeholder" src="/medias/11.jpg" class="lazyload placeholder" data-srcset="/medias/11.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+              <img class="lazyload lazyload placeholder" src="/mySwiper/img/3.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/3.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
             </a>
           </div>
           <div class="post-content">
@@ -1850,7 +2129,7 @@ PATTERN  模式
       <div class="post-img">
         <a href="/2022/03/12/nginx%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1/" style="background-size: cover; 
           background-position: center center;">
-          <img class="lazyload lazyload placeholder" src="/medias/11.jpg" class="lazyload placeholder" data-srcset="/medias/11.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+          <img class="lazyload lazyload placeholder" src="/mySwiper/img/3.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/3.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
         </a>
       </div>
     </article>
@@ -1877,7 +2156,7 @@ PATTERN  模式
     
       <div class='text'>
         
-          <h2>青墨书晚风</h2>
+          <h2>rookie Andy</h2>
         
         
           <p>爱你每一天</p>
@@ -1938,16 +2217,49 @@ PATTERN  模式
   
   
   
-    
-  
 
   <div class="layout_sticky">
     
       
+    <section class="widget side_category">
+      
+  <header>
+    
+      <a style="color: " href='/blog/categories/'><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
+    
+  </header>
+
+
+      <div class='content'>
+        <ul class="entry navigation">
+          
+            <li><a class="flat-box"
+              title="/categories/%E8%BF%90%E7%BB%B4/" href="/categories/%E8%BF%90%E7%BB%B4/"
+              id="categoriesE8BF90E7BBB4"
+              ><div class='name'>运维</div><div class='badge'>(4)</div></a></li>
+          
+        </ul>
+      </div>
+    </section>
+  
   
     
     
       
+<section class="widget side_tagcloud">
+    
+  <header>
+    
+      <a style="color: " href='/tags/'><i class="fas fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+    <a href="/tags/Hexo/" style="font-size: 14px; color: #999">Hexo</a> <a href="/tags/hexo-theme-bamboo/" style="font-size: 14px; color: #999">hexo-theme-bamboo</a>
+    </div>
+</section>
+
   
     
     
@@ -1974,7 +2286,7 @@ PATTERN  模式
             <div class="post-img-box">
               <a href="/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/mySwiper/img/4.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/4.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -1995,7 +2307,7 @@ PATTERN  模式
             <div class="post-img-box">
               <a href="/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/5.jpg" class="lazyload placeholder" data-srcset="/medias/5.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/mySwiper/img/1.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/1.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -2016,7 +2328,7 @@ PATTERN  模式
             <div class="post-img-box">
               <a href="/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/15.jpg" class="lazyload placeholder" data-srcset="/medias/15.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/mySwiper/img/2.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/2.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -2138,7 +2450,7 @@ PATTERN  模式
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Mon Mar 14 2022 14:39:15 GMT+0800 (中国标准时间)</div>
+            <div id="last-update" style="display: none;">Mon Mar 14 2022 19:51:32 GMT+0800 (中国标准时间)</div>
             <div id="last-update-show">2022-03-14 日</div>
           
         </div>
@@ -2198,27 +2510,16 @@ PATTERN  模式
   </div>
 </section>
     
-  
-    <div class="widget testLove" id="testLove" style="order: -1;background: #fff">
-      <header>
-        
-          <a style="color: #d63130" target="_blank" rel="noopener" href='http://baidu.com'><i class="fas fa-heart fa-fw" aria-hidden="true"></i><span class='name'>恋爱墙</span></a>
-        
-      </header>
-      <div class="content">
-        
-<div style="text-align: center;"> <img src="https://a-oss.zmki.cn/20190601/img_9879.jpg" class="lazyload placeholder" data-srcset="https://a-oss.zmki.cn/20190601/img_9879.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" style="width: 50px;height: 50px;vertical-align: -20px;border-radius: 50%;margin-right: 5px;margin-bottom: 5px;-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.1), 1px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0,0,0,0.1);box-shadow: 1px 1px 1px rgba(0,0,0,.1), 1px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0,0,0,0.1);border: 2px solid #fff;" /> <svg viewbox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="15" height="15" class="my-face"> <path d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z" fill="#515151" /> </svg> <img src="https://a-oss.zmki.cn/20190601/img_9878.jpg" class="lazyload placeholder" data-srcset="https://a-oss.zmki.cn/20190601/img_9878.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" style="width: 50px;height: 50px;vertical-align: -20px;border-radius: 50%;margin-left: 5px;margin-bottom: 5px;-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.1), 1px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0,0,0,0.1);box-shadow: 1px 1px 1px rgba(0,0,0,.1), 1px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0,0,0,0.1);border: 2px solid #fff;" /><br /> <span id="htmer_time"></span> </div>
-<script data-pjax src="/love/index.js"></script> 
-      </div>
-  </div>
-  
-
   </div>
 </aside>
 
 </div>
 <!-- 花瓣和雪花飘落 -->
 <!-- 雪花和花瓣特效 -->
+
+  
+    <script src="/js/falling/snow.js"></script>
+  
 
 
 
@@ -2242,7 +2543,7 @@ PATTERN  模式
       
         
           <div class="footer-copyright">
-            <p>Copyright © 2019 - 2020 <a target="_blank" rel="noopener" href="https://github.com/yuang01">yuang01</a> | Powered by <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a target="_blank" rel="noopener" href="https://github.com/yuang01/theme">Bamboo</a> </p>
+            <p>Copyright © 2022 - 2023 <a target="_blank" rel="noopener" href="https://github.com/yuang01">Andy Qi</a> | Powered by <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a target="_blank" rel="noopener" href="https://github.com/yuang01/theme">Bamboo</a> </p>
 
           </div>
         
@@ -2323,6 +2624,12 @@ PATTERN  模式
     
     <!-- 渲染回到顶部按钮 -->
     
+      <div class="goTop top-btn-color" pointer>
+  <i class="fas fa-arrow-up" aria-hidden="true"></i>
+</div>
+<script src="/js/goTop.js"></script>
+
+    
     <!-- 渲染左下角音乐播放器 -->
     
       <link rel="stylesheet" href="/js/aplayer/APlayer@1.10.1.min.css">
@@ -2379,6 +2686,8 @@ PATTERN  模式
     
 
     <!-- 图片放大 -->
+    
+      <script src="/js/fancybox/jquery.fancybox.min.js"></script>
     
 
     <!-- 百度解析 -->
