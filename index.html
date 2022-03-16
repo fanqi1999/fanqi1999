@@ -273,6 +273,15 @@
               
             </li>
           
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/friends" class="drawer-menu-item-link">
+                  
+                  <span class="name">友情链接</span>
+                </a>
+              
+            </li>
+          
         
         
           <li class="drawer-box-content_item">
@@ -396,6 +405,15 @@
                     <i class="fas fa-user" aria-hidden="true"></i>
                   
                   <span class="name">关于</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/friends" class="menu-item-link" title="友情链接">
+                  
+                  <span class="name">友情链接</span>
                 </a>
               
             </li>
@@ -540,13 +558,20 @@
             <div class="swiper-bgmask" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></div>
               <div class="flag">
                 
+                <div class="swiper-video">
+                  <video class="full-video" poster="https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif" autoplay loop muted style="width: 100%;height:100%;object-fit: cover;">
+                    <source style="width: 100%;height: 100vh;"  src=" https://assets.mixkit.co/videos/preview/mixkit-traveling-through-a-tunnel-of-black-cubes-in-3d-31497-large.mp4 ">
+                  </video>
+                  <div class="swiper-video-maskBox"></div>
+                </div>
+                
                 <div class="img-mask swiper-lazy swiper-default-bgImg" data-background="https://img11.360buyimg.com/ddimg/jfs/t1/160978/33/20686/2476596/6083e62dEa588862b/63f8f2163ab61b2f.png" style="height: 100%; background-size: cover; 
                   background-position: center center;">
                   <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>   
                 </div>
                 <div class="flag-text">
                   <div class="flag-text-content">
-                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">青墨书晚风</div>
+                    <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">爱你每一天</div>
                     
                       <div  class="ani animated default-excerpt" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">
                         <vue-typed-js :strings="defaultDesc" :loop="defaultDescTypedLoop" :type-speed="100" :back-speed="50">
@@ -747,7 +772,7 @@ Linux、Apache、MySQL、php
   var loop = JSON.parse('true') ? false : JSON.parse('true');
   var effect = 'slide';
   var swiperLength = parseInt(document.querySelector(".swiper-length").innerText);
-  var defaultDesc = '煮酒洗净尘嚣，论知交,万般付之一笑，共偕老';
+  var defaultDesc = '尊重他人,热爱生活';
   defaultDesc = defaultDesc.split(',');
   var defaultDescTypedLoop = JSON.parse('true');
   var vm = new Vue({
@@ -1274,10 +1299,10 @@ Linux、Apache、MySQL、php
 @media (min-width: 992px) {
   
     .swiper-video {
-      display: none;
+      display: block;
     }
     .swiper-default-bgImg {
-      display: block;  
+      display: none;  
     }
   
 }
@@ -1297,6 +1322,19 @@ Linux、Apache、MySQL、php
   <div class="l_content">
     <!-- 自定义的内容 -->
     
+  
+    <div class="widget welcome" id="welcome" style="order: -1;background: #fff">
+      <header>
+        
+          <a style="color: blue" target="_blank" rel="noopener" href='http://baidu.com'><i class="fas fa-envelope fa-fw" aria-hidden="true"></i><span class='name'>欢迎</span></a>
+        
+      </header>
+      <div class="content">
+        <img src="https://api.amogu.cn/api/ipimg/" class="lazyload placeholder" data-srcset="https://api.amogu.cn/api/ipimg/" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" style="width:100%">
+      </div>
+  </div>
+  
+
     <!-- 首页座右铭 -->
     
   <div class="motto">
@@ -2156,7 +2194,7 @@ PATTERN  模式
     
       <div class='text'>
         
-          <h2>rookie Andy</h2>
+          <h2>Rookie Andy</h2>
         
         
           <p>爱你每一天</p>
@@ -2216,6 +2254,8 @@ PATTERN  模式
     
   
   
+  
+    
   
 
   <div class="layout_sticky">
@@ -2450,8 +2490,8 @@ PATTERN  模式
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Mon Mar 14 2022 19:51:32 GMT+0800 (中国标准时间)</div>
-            <div id="last-update-show">2022-03-14 日</div>
+            <div id="last-update" style="display: none;">Wed Mar 16 2022 13:22:18 GMT+0800 (中国标准时间)</div>
+            <div id="last-update-show">2022-03-16 日</div>
           
         </div>
         
@@ -2501,7 +2541,7 @@ PATTERN  模式
           try {
             document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
           } catch (error) {
-            document.getElementById('last-update-show').innerHTML = '2022-03-14 日';
+            document.getElementById('last-update-show').innerHTML = '2022-03-16 日';
           }
         </script>
         
@@ -2510,6 +2550,34 @@ PATTERN  模式
   </div>
 </section>
     
+  
+    <div class="widget testLove" id="testLove" style="order: -1;background: #fff">
+      <header>
+        
+          <a style="color: #d63130" target="_blank" rel="noopener" href='http://baidu.com'><i class="fas fa-heart fa-fw" aria-hidden="true"></i><span class='name'>恋爱墙</span></a>
+        
+      </header>
+      <div class="content">
+         <div style="text-align: center;"> <img src="https://a-oss.zmki.cn/20190601/img_9879.jpg" class="lazyload placeholder" data-srcset="https://a-oss.zmki.cn/20190601/img_9879.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" style="width: 50px;height: 50px;vertical-align: -20px;border-radius: 50%;margin-right: 5px;margin-bottom: 5px;-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.1), 1px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0,0,0,0.1);box-shadow: 1px 1px 1px rgba(0,0,0,.1), 1px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0,0,0,0.1);border: 2px solid #fff;" /> <svg viewbox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="15" height="15" class="my-face"> <path d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z" fill="#515151" /> </svg> <img src="https://a-oss.zmki.cn/20190601/img_9878.jpg" class="lazyload placeholder" data-srcset="https://a-oss.zmki.cn/20190601/img_9878.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" style="width: 50px;height: 50px;vertical-align: -20px;border-radius: 50%;margin-left: 5px;margin-bottom: 5px;-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.1), 1px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0,0,0,0.1);box-shadow: 1px 1px 1px rgba(0,0,0,.1), 1px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0,0,0,0.1);border: 2px solid #fff;" /><br /> <span id="htmer_time"></span> </div>
+<script data-pjax src="/love/index.js"></script> 
+      </div>
+  </div>
+  
+    <div class="widget testWidget" id="testWidget" style="order: -1;background: #fff">
+      <header>
+        
+          <a style="color: #d63130" target="_blank" rel="noopener" href='http://baidu.com'><i class="fab fa-weibo fa-fw" aria-hidden="true"></i><span class='name'>微博热搜</span></a>
+        
+      </header>
+      <div class="content">
+         <div id="myWeibo">
+<!-- 如果不要滚动，则去掉 vue-seamless-scroll标签就行了，这个插件使用cdn向左向右滚动好像有问题 -->
+<vue-seamless-scroll :data="content" :class-option="classOption" class="warp" > <div class="weibo-container" v-for="(item, index) in content" :key="index"> <div class="left"> <div class="order" :class="{ red: index<=2 }">{{index + 1}}</div> <div class="name"><a :href="item.url" target="_blank">{{item.name}}</a></div> </div> <div class="hot">{{item.hot}}</div> </div> </vue-seamless-scroll> </div>
+<script src="/weibo/index.js"></script> <link href="/weibo/index.css" rel="stylesheet"> 
+      </div>
+  </div>
+  
+
   </div>
 </aside>
 
@@ -2518,7 +2586,7 @@ PATTERN  模式
 <!-- 雪花和花瓣特效 -->
 
   
-    <script src="/js/falling/snow.js"></script>
+    <script src="/js/falling/sakura.js"></script>
   
 
 
