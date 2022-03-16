@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Andy</title>
   
   
   <link href="http://fanqi1999.github.io/atom.xml" rel="self"/>
   
   <link href="http://fanqi1999.github.io/"/>
-  <updated>2022-03-14T11:46:50.283Z</updated>
+  <updated>2022-03-16T11:10:13.771Z</updated>
   <id>http://fanqi1999.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://fanqi1999.github.io/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/"/>
     <id>http://fanqi1999.github.io/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/</id>
     <published>2022-03-14T06:15:27.000Z</published>
-    <updated>2022-03-14T11:46:50.283Z</updated>
+    <updated>2022-03-16T11:10:13.771Z</updated>
     
     
       
@@ -40,9 +40,7 @@
     <category term="运维" scheme="http://fanqi1999.github.io/categories/%E8%BF%90%E7%BB%B4/"/>
     
     
-    <category term="Hexo" scheme="http://fanqi1999.github.io/tags/Hexo/"/>
-    
-    <category term="hexo-theme-bamboo" scheme="http://fanqi1999.github.io/tags/hexo-theme-bamboo/"/>
+    <category term="MySQL" scheme="http://fanqi1999.github.io/tags/MySQL/"/>
     
   </entry>
   
@@ -51,7 +49,7 @@
     <link href="http://fanqi1999.github.io/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/"/>
     <id>http://fanqi1999.github.io/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/</id>
     <published>2022-03-14T06:14:05.000Z</published>
-    <updated>2022-03-14T11:44:40.512Z</updated>
+    <updated>2022-03-16T11:06:02.807Z</updated>
     
     
       
@@ -70,9 +68,7 @@
     <category term="运维" scheme="http://fanqi1999.github.io/categories/%E8%BF%90%E7%BB%B4/"/>
     
     
-    <category term="Hexo" scheme="http://fanqi1999.github.io/tags/Hexo/"/>
-    
-    <category term="hexo-theme-bamboo" scheme="http://fanqi1999.github.io/tags/hexo-theme-bamboo/"/>
+    <category term="基本服务" scheme="http://fanqi1999.github.io/tags/%E5%9F%BA%E6%9C%AC%E6%9C%8D%E5%8A%A1/"/>
     
   </entry>
   
@@ -81,7 +77,7 @@
     <link href="http://fanqi1999.github.io/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/"/>
     <id>http://fanqi1999.github.io/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/</id>
     <published>2022-03-14T06:13:29.000Z</published>
-    <updated>2022-03-14T11:43:55.484Z</updated>
+    <updated>2022-03-16T11:05:27.211Z</updated>
     
     
       
@@ -104,9 +100,7 @@
     <category term="运维" scheme="http://fanqi1999.github.io/categories/%E8%BF%90%E7%BB%B4/"/>
     
     
-    <category term="Hexo" scheme="http://fanqi1999.github.io/tags/Hexo/"/>
-    
-    <category term="hexo-theme-bamboo" scheme="http://fanqi1999.github.io/tags/hexo-theme-bamboo/"/>
+    <category term="基本服务" scheme="http://fanqi1999.github.io/tags/%E5%9F%BA%E6%9C%AC%E6%9C%8D%E5%8A%A1/"/>
     
   </entry>
   
@@ -115,7 +109,7 @@
     <link href="http://fanqi1999.github.io/2022/03/12/awk%E5%B7%A5%E5%85%B7/"/>
     <id>http://fanqi1999.github.io/2022/03/12/awk%E5%B7%A5%E5%85%B7/</id>
     <published>2022-03-12T06:54:36.000Z</published>
-    <updated>2022-03-12T07:03:49.917Z</updated>
+    <updated>2022-03-16T11:08:31.384Z</updated>
     
     
       
@@ -129,6 +123,10 @@
     
     
     
+    <category term="运维" scheme="http://fanqi1999.github.io/categories/%E8%BF%90%E7%BB%B4/"/>
+    
+    
+    <category term="文本三剑客" scheme="http://fanqi1999.github.io/tags/%E6%96%87%E6%9C%AC%E4%B8%89%E5%89%91%E5%AE%A2/"/>
     
   </entry>
   
@@ -137,7 +135,7 @@
     <link href="http://fanqi1999.github.io/2022/03/12/sed%E5%B7%A5%E5%85%B7/"/>
     <id>http://fanqi1999.github.io/2022/03/12/sed%E5%B7%A5%E5%85%B7/</id>
     <published>2022-03-12T06:50:41.000Z</published>
-    <updated>2022-03-12T06:54:27.403Z</updated>
+    <updated>2022-03-16T11:09:10.119Z</updated>
     
     
       
@@ -159,6 +157,10 @@
     
     
     
+    <category term="运维" scheme="http://fanqi1999.github.io/categories/%E8%BF%90%E7%BB%B4/"/>
+    
+    
+    <category term="文本三剑客" scheme="http://fanqi1999.github.io/tags/%E6%96%87%E6%9C%AC%E4%B8%89%E5%89%91%E5%AE%A2/"/>
     
   </entry>
   
@@ -167,7 +169,7 @@
     <link href="http://fanqi1999.github.io/2022/03/12/grep%E5%B7%A5%E5%85%B7/"/>
     <id>http://fanqi1999.github.io/2022/03/12/grep%E5%B7%A5%E5%85%B7/</id>
     <published>2022-03-12T06:48:07.000Z</published>
-    <updated>2022-03-12T06:49:00.976Z</updated>
+    <updated>2022-03-16T11:07:13.140Z</updated>
     
     
       
@@ -191,6 +193,10 @@
     
     
     
+    <category term="运维" scheme="http://fanqi1999.github.io/categories/%E8%BF%90%E7%BB%B4/"/>
+    
+    
+    <category term="文本三剑客" scheme="http://fanqi1999.github.io/tags/%E6%96%87%E6%9C%AC%E4%B8%89%E5%89%91%E5%AE%A2/"/>
     
   </entry>
   
@@ -199,7 +205,7 @@
     <link href="http://fanqi1999.github.io/2022/03/12/pxe%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/"/>
     <id>http://fanqi1999.github.io/2022/03/12/pxe%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</id>
     <published>2022-03-12T06:27:04.000Z</published>
-    <updated>2022-03-12T06:35:22.994Z</updated>
+    <updated>2022-03-16T11:09:50.171Z</updated>
     
     
       
@@ -212,6 +218,10 @@
     
     
     
+    <category term="运维" scheme="http://fanqi1999.github.io/categories/%E8%BF%90%E7%BB%B4/"/>
+    
+    
+    <category term="shell脚本" scheme="http://fanqi1999.github.io/tags/shell%E8%84%9A%E6%9C%AC/"/>
     
   </entry>
   
@@ -220,7 +230,7 @@
     <link href="http://fanqi1999.github.io/2022/03/12/nginx%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1/"/>
     <id>http://fanqi1999.github.io/2022/03/12/nginx%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1/</id>
     <published>2022-03-12T05:56:22.000Z</published>
-    <updated>2022-03-14T11:47:27.014Z</updated>
+    <updated>2022-03-16T11:06:21.541Z</updated>
     
     
       
@@ -238,9 +248,7 @@
     <category term="运维" scheme="http://fanqi1999.github.io/categories/%E8%BF%90%E7%BB%B4/"/>
     
     
-    <category term="Hexo" scheme="http://fanqi1999.github.io/tags/Hexo/"/>
-    
-    <category term="hexo-theme-bamboo" scheme="http://fanqi1999.github.io/tags/hexo-theme-bamboo/"/>
+    <category term="基本服务" scheme="http://fanqi1999.github.io/tags/%E5%9F%BA%E6%9C%AC%E6%9C%8D%E5%8A%A1/"/>
     
   </entry>
   
