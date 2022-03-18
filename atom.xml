@@ -6,7 +6,7 @@
   <link href="http://fanqi1999.github.io/atom.xml" rel="self"/>
   
   <link href="http://fanqi1999.github.io/"/>
-  <updated>2022-03-16T11:10:13.771Z</updated>
+  <updated>2022-03-18T08:39:41.533Z</updated>
   <id>http://fanqi1999.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>keepalived结合LVS</title>
+    <link href="http://fanqi1999.github.io/2022/03/18/keepalived%E7%BB%93%E5%90%88LVS/"/>
+    <id>http://fanqi1999.github.io/2022/03/18/keepalived%E7%BB%93%E5%90%88LVS/</id>
+    <published>2022-03-18T08:33:49.000Z</published>
+    <updated>2022-03-18T08:39:41.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;集群案例：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;C:\Users\Fanqi\AppData\Roaming\Typora\typora-user-images\image-20220318152856192.png&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>MySQL主从复制、读写分离</title>
@@ -77,7 +99,7 @@
     <link href="http://fanqi1999.github.io/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/"/>
     <id>http://fanqi1999.github.io/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/</id>
     <published>2022-03-14T06:13:29.000Z</published>
-    <updated>2022-03-16T11:05:27.211Z</updated>
+    <updated>2022-03-18T08:40:43.911Z</updated>
     
     
       

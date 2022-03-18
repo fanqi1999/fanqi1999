@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>归档: 2022 | Andy</title>
+  <title>keepalived结合LVS | Andy</title>
 
   <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -532,242 +532,592 @@
     
 </header>
         <!-- 内容区域 -->
-        <div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"></div>
-<div class="bg-light-floor-archive" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -3;"></div>
-<div class="archive-header" style="background-image:url('https://pic1.zhimg.com/80/v2-1414b3a4b205e19060db18a20d08723a_1440w.jpg?source=1940ef5c')">
-  <div class="archive-header-title">
-    archive
-  </div>
-  <div class="archive-header-desc">
+        
+ <!-- prismjs 代码高亮 -->
+ 
+
+
+<div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;"></div>
+
+
+  <!-- 文章详情页顶部图片和标题 -->
+
+
+
+
+<div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
+  background-position: center center;position: relative;background-image:url('/medias/6.jpg')">
+  <div class="post-detail-header-mask"></div>
+  <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
-  <span class="title" id="archive-header-desc"></span>
-  <script>
-  function typedFn() {
-    const el = '#archive-header-desc';
-    const type = 'archive';
-    let desc = '愿你如风，被人温柔以待'
-    var typed = new Typed(el, {
-      strings: [desc],
-      startDelay: 100,
-      typeSpeed: 100,
-      loop: true,
-      backSpeed: 50,
-      showCursor: true
-    });
-  }
-  typedFn();
-</script>
-  
-  </div>
-  <div class="mask-box"></div>
-</div>
-
-<div class="archive-video">
-  <video class="full-video" autoplay loop muted>
-      <source style="width: 100%;height: 100vh;" src="/">
-  </video>
-  <div class="video-header-title">
-    archive
-  </div>
-  <div class="video-header-desc">
-  
-      <span class="title" id="archive-video-header-desc"></span>
-      <script>
-  function typedFn() {
-    const el = '#archive-video-header-desc';
-    const type = 'archive';
-    let desc = '愿你如风，被人温柔以待'
-    var typed = new Typed(el, {
-      strings: [desc],
-      startDelay: 100,
-      typeSpeed: 100,
-      loop: true,
-      backSpeed: 50,
-      showCursor: true
-    });
-  }
-  typedFn();
-</script>
-      
-  </div>
-  <div class="mask-box"></div>
-</div>
-
-<!-- hash算法 -->
-
-
-<div class="archive-main">
-  <section class="archive">
-    <div class="archive-content">
-      <ul class="post-archive">
-        
-        
-          
-            
-            <div class="year" data-aos="zoom-in-up">
-                <div class="bullet"></div>
-                <a href="/archives/2022">2022</a>
-            </div>
-          
-          <li class="post-item" data-aos="fade-left">
-            
-            <div class="post-img-box">
-              <a href="/2022/03/18/keepalived%E7%BB%93%E5%90%88LVS/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" src="/medias/6.jpg" class="lazyload placeholder" data-srcset="/medias/6.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                <span class="post-date">03-18</span>
-              </div>
-              <a class="post-title" href="/2022/03/18/keepalived%E7%BB%93%E5%90%88LVS/">keepalived结合LVS</a>
-            </div>
-          </li>
-        
-          
-          <li class="post-item" data-aos="fade-left">
-            
-            <div class="post-img-box">
-              <a href="/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" src="/mySwiper/img/4.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/4.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                <span class="post-date">03-14</span>
-              </div>
-              <a class="post-title" href="/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/">MySQL主从复制、读写分离</a>
-            </div>
-          </li>
-        
-          
-          <li class="post-item" data-aos="fade-left">
-            
-            <div class="post-img-box">
-              <a href="/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" src="/mySwiper/img/1.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/1.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                <span class="post-date">03-14</span>
-              </div>
-              <a class="post-title" href="/2022/03/14/LNMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/">LNMP平台部署</a>
-            </div>
-          </li>
-        
-          
-          <li class="post-item" data-aos="fade-left">
-            
-            <div class="post-img-box">
-              <a href="/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" src="/mySwiper/img/2.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/2.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                <span class="post-date">03-14</span>
-              </div>
-              <a class="post-title" href="/2022/03/14/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2/">LAMP平台部署</a>
-            </div>
-          </li>
-        
-          
-          <li class="post-item" data-aos="fade-left">
-            
-            <div class="post-img-box">
-              <a href="/2022/03/12/awk%E5%B7%A5%E5%85%B7/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" src="/mySwiper/img/6.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/6.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                <span class="post-date">03-12</span>
-              </div>
-              <a class="post-title" href="/2022/03/12/awk%E5%B7%A5%E5%85%B7/">awk工具</a>
-            </div>
-          </li>
-        
-          
-          <li class="post-item" data-aos="fade-left">
-            
-            <div class="post-img-box">
-              <a href="/2022/03/12/sed%E5%B7%A5%E5%85%B7/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" src="/mySwiper/img/9.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/9.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                <span class="post-date">03-12</span>
-              </div>
-              <a class="post-title" href="/2022/03/12/sed%E5%B7%A5%E5%85%B7/">sed工具</a>
-            </div>
-          </li>
-        
-          
-          <li class="post-item" data-aos="fade-left">
-            
-            <div class="post-img-box">
-              <a href="/2022/03/12/grep%E5%B7%A5%E5%85%B7/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" src="/mySwiper/img/7.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/7.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                <span class="post-date">03-12</span>
-              </div>
-              <a class="post-title" href="/2022/03/12/grep%E5%B7%A5%E5%85%B7/">“grep工具”</a>
-            </div>
-          </li>
-        
-          
-          <li class="post-item" data-aos="fade-left">
-            
-            <div class="post-img-box">
-              <a href="/2022/03/12/pxe%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" src="/mySwiper/img/8.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/8.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                <span class="post-date">03-12</span>
-              </div>
-              <a class="post-title" href="/2022/03/12/pxe%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/">pxe自动部署</a>
-            </div>
-          </li>
-        
-          
-          <li class="post-item" data-aos="fade-left">
-            
-            <div class="post-img-box">
-              <a href="/2022/03/12/nginx%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" src="/mySwiper/img/3.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/3.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                <span class="post-date">03-12</span>
-              </div>
-              <a class="post-title" href="/2022/03/12/nginx%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1/">nginx配置网站服务</a>
-            </div>
-          </li>
-        
-      </ul>
+  <div class="post-detail-header_info-box">
+    <div class="title-box">
+      <span class="title">
+        keepalived结合LVS
+      </span>
     </div>
-  </section>
-  <div class="w-70">
+    
+    
+      
+        <span class="post-detail-header_date">
+          <i class="fas fa-calendar"></i> 发表于：2022-03-18 |
+        </span>
+      
+
+      
+
+      
     
   </div>
+  
+  
+    <script src="/js/bubble/bubble.js"></script>
+  
 </div>
+
+
+
+
+
+<div class="row justify-position" 
+  style="padding-top: 0px;">
+  <div class="main-content">
+    <article class="post post-detail">
+      <div class="post-content">
+        <p><strong>集群案例：</strong></p>
+<p><img src="C:\Users\Fanqi\AppData\Roaming\Typora\typora-user-images\image-20220318152856192.png" class="lazyload placeholder" data-srcset="C:\Users\Fanqi\AppData\Roaming\Typora\typora-user-images\image-20220318152856192.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="image-20220318152856192"></p>
+<p>配置环境</p>
+<p><strong>192.168.245.130    lvs01.linux.com</strong></p>
+<p><strong>192.168.245.131    lvs02.linux.com</strong></p>
+<p><strong>192.168.245.132    web01.linux.com</strong></p>
+<p><strong>192.168.245.133    web02.linux.com</strong></p>
+<p><strong>192.168.245.134    nfs.linux.com</strong></p>
+<ul>
+<li><p>在两台web上部署LAMP平台，搭建wordpress论坛，</p>
+</li>
+<li><p>客户端通过VIP访问服务器</p>
+</li>
+</ul>
+<p><strong>1、配置NFS服务器共享存储空间</strong> </p>
+<p>​             </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">[root@nfs ~]# yum install -y nfs-utils</span><br><span class="line">[root@nfs ~]# mkdir /webdata</span><br><span class="line">[root@nfs ~]# vim /etc/exports</span><br><span class="line">/webdata 192.168.245.0/24(rw)</span><br><span class="line">[root@nfs ~]# systemctl start nfs-server</span><br><span class="line">[root@nfs ~]# systemctl enable nfs-server</span><br><span class="line">[root@nfs ~]# showmount -e</span><br><span class="line">Export list for nfs.linux.com:</span><br><span class="line">/webdata 192.168.245.0/24</span><br><span class="line"></span><br><span class="line">下载wordpress压缩包</span><br><span class="line"></span><br><span class="line">[root@nfs ~]# tar xf wordpress-4.6.10.tar.gz</span><br><span class="line">[root@nfs ~]# mv wordpress/* /webdata/</span><br><span class="line">[root@nfs ~]# chmod o+w /webdata/</span><br></pre></td></tr></table></figure>
+
+<p><strong>2、配置real server挂载存储</strong> </p>
+<p>​                </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">搭建LAMP平台</span><br><span class="line">[root@web01 ~]# yum install -y  httpd php mariadb-server php-mysql gd php-gd php-devel</span><br><span class="line">[root@web01 ~]# vim /etc/httpd/conf/httpd.conf</span><br><span class="line">&lt;IfModule dir_module&gt;</span><br><span class="line">    DirectoryIndex index.html index.php</span><br><span class="line">&lt;/IfModule&gt;</span><br><span class="line">[root@web01 ~]# systemctl start httpd mariadb-server</span><br><span class="line">[root@web01 ~]# systemctl enable httpd mariadb-server</span><br><span class="line"></span><br><span class="line">[root@web01 ~]# yum install -y nfs-utils</span><br><span class="line">[root@web01 ~]# vim /etc/fstab</span><br><span class="line">192.168.245.134:/webdata /webdata nfs defaults 0 0</span><br><span class="line">[root@web01 ~]# mkdir /webdata</span><br><span class="line">[root@web01 ~]# mount -a</span><br><span class="line">[root@web01 ~]# rm -rf /etc/httpd/conf.d/welcome.conf</span><br><span class="line">[root@web01 ~]# vim /etc/httpd/conf.d/wordpress.conf</span><br><span class="line">&lt;VirtualHost 0.0.0.0:80&gt;</span><br><span class="line">     ServerName wordpress.linux.com</span><br><span class="line">     DocumentRoot /webdata</span><br><span class="line">     ErrorLog /var/log/httpd/wp_error.log</span><br><span class="line">     CustomLog /var/log/httpd/wp_access.log combined</span><br><span class="line">&lt;/VirtualHost&gt;</span><br><span class="line"></span><br><span class="line">&lt;Directory &quot;/webdata&quot;&gt;</span><br><span class="line">    Require all granted</span><br><span class="line">&lt;/Directory&gt;</span><br><span class="line">[root@web01 ~]# systemctl restart httpd </span><br><span class="line"></span><br><span class="line">在web02上再配置一遍</span><br></pre></td></tr></table></figure>
+
+<p><strong>3、在所有real server上配置VIP、arp内核参数</strong></p>
+<p>​                </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[root@web01 ~]# ip addr add dev lo 192.168.245.100/32</span><br><span class="line">[root@web01 ~]# vim /etc/sysctl.conf</span><br><span class="line">net.ipv4.conf.all.arp_ignore = 1</span><br><span class="line">net.ipv4.conf.all.arp_announce = 2</span><br><span class="line"></span><br><span class="line">[root@web01 ~]# sysctl -p</span><br></pre></td></tr></table></figure>
+
+<p>​           </p>
+<p><strong>5、在调度器上安装keepalived、ipvsadm</strong></p>
+<p>​                </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@web01 ~]# yum install -y keepalived ipvsadm           </span><br></pre></td></tr></table></figure>
+
+<p><strong>6、编辑主调度器的配置文件</strong> </p>
+<p>​                </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line">[root@lvs01 ~]# vim /etc/keepalived/keepalived.conf</span><br><span class="line"></span><br><span class="line">! Configuration File for keepalived</span><br><span class="line"></span><br><span class="line">global_defs &#123;</span><br><span class="line">   router_id master_lvs</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">vrrp_instance web_server &#123;</span><br><span class="line">    state MASTER</span><br><span class="line">    interface ens33</span><br><span class="line">    virtual_router_id 51</span><br><span class="line">    priority 100</span><br><span class="line">    advert_int 1</span><br><span class="line">    authentication &#123;</span><br><span class="line">        auth_type PASS</span><br><span class="line">        auth_pass redhat</span><br><span class="line">    &#125;</span><br><span class="line">    virtual_ipaddress &#123;</span><br><span class="line">        192.168.245.100</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">virtual_server 192.168.245.100 80 &#123;</span><br><span class="line">    delay_loop 6</span><br><span class="line">    lb_algo rr</span><br><span class="line">    lb_kind DR</span><br><span class="line">    persistence_timeout 300</span><br><span class="line">    protocol TCP</span><br><span class="line"></span><br><span class="line">    real_server 192.168.245.132 80 &#123;</span><br><span class="line">        weight 1</span><br><span class="line">        TCP_CHECK &#123;</span><br><span class="line">            connect_timeout 3</span><br><span class="line">            connect_port 80</span><br><span class="line">            nb_get_retry 3</span><br><span class="line">            delay_before_retry 3</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    real_server 192.168.245.133 80 &#123;</span><br><span class="line">        weight 1</span><br><span class="line">        TCP_CHECK &#123;</span><br><span class="line">            connect_timeout 3</span><br><span class="line">            connect_port 80</span><br><span class="line">            nb_get_retry 3</span><br><span class="line">            delay_before_retry 3</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">[root@lvs01 ~]# systemctl start keepalived.service</span><br><span class="line">[root@lvs01 ~]# ipvsadm -L -n</span><br><span class="line">[root@lvs01 ~]# ip addr show</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><strong>7、编辑备调度器的配置文件</strong> </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line">[root@lvs02 ~]# vim /etc/keepalived/keepalived.conf</span><br><span class="line"></span><br><span class="line">! Configuration File for keepalived</span><br><span class="line"></span><br><span class="line">global_defs &#123;</span><br><span class="line">   router_id slave_lvs</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">vrrp_instance web_server &#123;</span><br><span class="line">    state BACKUP</span><br><span class="line">    interface ens33</span><br><span class="line">    virtual_router_id 51</span><br><span class="line">    priority 100</span><br><span class="line">    advert_int 1</span><br><span class="line">    authentication &#123;</span><br><span class="line">        auth_type PASS</span><br><span class="line">        auth_pass redhat</span><br><span class="line">    &#125;</span><br><span class="line">    virtual_ipaddress &#123;</span><br><span class="line">        192.168.245.100</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">virtual_server 192.168.245.100 80 &#123;</span><br><span class="line">    delay_loop 6</span><br><span class="line">    lb_algo rr</span><br><span class="line">    lb_kind DR</span><br><span class="line">    persistence_timeout 300</span><br><span class="line">    protocol TCP</span><br><span class="line"></span><br><span class="line">    real_server 192.168.245.132 80 &#123;</span><br><span class="line">        weight 1</span><br><span class="line">        TCP_CHECK &#123;</span><br><span class="line">            connect_timeout 3</span><br><span class="line">            connect_port 80</span><br><span class="line">            nb_get_retry 3</span><br><span class="line">            delay_before_retry 3</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    real_server 192.168.245.133 80 &#123;</span><br><span class="line">        weight 1</span><br><span class="line">        TCP_CHECK &#123;</span><br><span class="line">            connect_timeout 3</span><br><span class="line">            connect_port 80</span><br><span class="line">            nb_get_retry 3</span><br><span class="line">            delay_before_retry 3</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">[root@lvs02 ~]# systemctl start keepalived.service</span><br><span class="line">[root@lvs02 ~]# ipvsadm -L -n</span><br><span class="line">[root@lvs02 ~]# ip addr show</span><br></pre></td></tr></table></figure>
+
+<p>测试通过VIP可正常访问服务**</p>
+<p>​                <a target="_blank" rel="noopener" href="http://192.168.245.100/">http://192.168.245.100/</a>     </p>
+<p>会出现wordpress安装界面         </p>
+
+      </div>
+      <div class="post-tags-categories">
+        
+      </div>
+      
+        <div class="copyright">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+    <strong>作者:  </strong>fan qi</a>
+    </li>
+    <li class="post-copyright-link">
+    <strong>文章链接:  </strong>
+    <a href="/2022/03/18/keepalived结合LVS/" target="_blank" title="keepalived结合LVS">http://fanqi1999.github.io/2022/03/18/keepalived结合LVS/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明:   </strong>
+      本网站所有文章除特别声明外,均采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+      许可协议。转载请注明出处!
+    </li>
+  </ul>
+<div>
+      
+    </article>
+    <!-- 上一篇文章和下一篇文章 -->
+    
+      <!-- 文章详情页的上一页和下一页 -->
+<div class="post-nav">
+
+
+
+
+
+  
+  <div class="post-nav-next post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="/mySwiper/img/4.jpg" class="lazyload placeholder" data-srcset="/mySwiper/img/4.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" src="" alt="">
+    </div>
+    <a href="/2022/03/14/MySQL%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E3%80%81%E8%AF%BB%E5%86%99%E5%88%86%E7%A6%BB/" class="post-nav-link">
+      <div class="title">
+        下一篇: <i class="fas fa-angle-right"></i>
+        <div class="title-text">MySQL主从复制、读写分离</div>
+      </div>
+      <!-- <div class="content">
+        一、 主从复制
+1、环境描述
+192.168.245.131        Master服务器
+192.168.245.
+      </div> -->
+    </a>
+  </div>
+
+</div>
+
+    
+    
+
+    <!-- 打赏 -->
+    
+      <div id="appDonate" class="post-donate">
+  <div id="donate_board" class="donate_bar center" ref="donate">
+    <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏" @click="showDialogDrawer()"></a>
+  </div>
+  <transition name="fade">
+    <div 
+      class="donate-box-mask"
+      v-cloak 
+      v-show="visible"
+      @click="cancelDialogDrawer()"
+    >
+    </div>
+  </transition>
+  <transition name="bounce">
+    <div class="donate-box" v-cloak v-show="visible">
+      <div class="donate-box_close">
+        <i class="fas fa-times" aria-hidden="true" @click="cancelDialogDrawer" pointer></i>
+      </div>
+      <div class="donate-box_title">
+        <h4>
+          您的赏识是我前进的动力
+        </h4>
+      </div>
+      <div class="donate-box_tab">
+        <div class="Alipay" pointer :class="{'active': tabActive === 'Alipay'}" @click="changeTabActive('Alipay')">
+          支付宝
+        </div>
+        <div class="WeChatpay" pointer :class="{'active': tabActive === 'WeChatpay'}" @click="changeTabActive('WeChatpay')">
+          微信
+        </div>
+      </div>
+      <div class="donate-box_img">
+        <div class="AlipayImg" v-show="tabActive === 'Alipay'">
+          <img src="/medias/zfb.jpg" class="lazyload placeholder" data-srcset="/medias/zfb.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="支付宝打赏" />
+        </div> 
+        <div class="WeChatpayImg" v-show="tabActive === 'WeChatpay'">
+          <img src="/medias/wx.jpg" class="lazyload placeholder" data-srcset="/medias/wx.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="微信打赏" />
+        </div>
+      </div>
+    </div>
+  </transition>
+</div>
+
+<script>
+  var body = document.body || document.documentElement || window;
+  var vm = new Vue({
+    el: '#appDonate',
+    data: {
+      visible: false,
+      tabActive: 'Alipay',
+      top: 0,
+    },
+    computed: {
+    },
+    mounted() {
+    },
+    methods: {
+      showDialogDrawer() {
+        this.visible = true;
+        // 防止页面滚动，只能让弹框滚动
+        // function getScroll() {
+        //   return {
+        //     left: window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0,
+        //     top: window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+        //   };
+        // }
+        this.top = $(document).scrollTop() // or getScroll().top
+        // console.log('aa', $('.main-content'));
+        body.style.cssText = 'overflow: hidden;';
+      },
+      cancelDialogDrawer() {
+        this.visible = false;
+        body.removeAttribute('style');
+        $(document).scrollTop(this.top)
+      },
+      changeTabActive(name) {
+        this.tabActive = name;
+      }
+    },
+    created() {}
+  })
+</script>
+    
+
+    <!-- 分享 -->
+    
+      <!-- https://github.com/overtrue/share.js -->
+<!-- 文章详情页的分享 -->
+<div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+
+<script src="/js/shareJs/social-share.min.js"></script>
+</script>
+
+<style>
+  .social-share {
+    margin: 20px 0;
+  }
+</style>
+
+
+    
+    
+    <!-- 评论 -->
+    <!-- 评论 -->
+
+  <div id="myComment">
+    
+      
+<section id="comments" style="padding: 1em; margin: 15px auto;"
+	class="animated bounceInUp">
+	<div id="vcomment" class="comment"></div>
+</section>
+<style>
+	#comments {
+		background: rgba(255,255,255,0.9);
+	}
+	#veditor {
+		background-image: url('https://img.zcool.cn/community/01a253594c71cfa8012193a329a77f.gif');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: right;
+		background-color: rgba(255, 255, 255, 0);
+		resize: vertical;
+	}
+	#veditor:focus{
+		background-position-y: 200px;
+		transition: all 0.2s ease-in-out 0s;
+	}
+	#vcomment .vcards .vcard .vh .vhead .vtag.vvisitor {
+		background-color: #42b983;
+	}
+	.v[data-class=v] .vbtn:active, .v[data-class=v] .vbtn:hover {
+		color: #42b983;
+		border-color: #42b983;
+	}
+	#vcomment .vcards .vcard .vhead .vsys i {
+		display: none;
+	}
+	/* 底部valine链接 */
+	#vcomment .vpower {
+		display: none;
+	}
+	
+	/* 底下注释是修改 名称和邮箱和网址输入框的样式 */
+	/* #vcomment .vheader {
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	#vcomment .vheader .vnick {
+		width: 31%;
+		border: 2px solid #dedede;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 5px
+	}
+
+	#vcomment .vheader .vmail {
+		width: 31%;
+		border: 2px solid #dedede;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 5px
+	}
+
+	#vcomment .vheader .vlink {
+		width: 31%;
+		border: 2px solid #dedede;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 5px
+	} */
+
+	img.vimg {
+		transition: all 1s;
+		/* 头像旋转时间为 1s */
+	}
+
+	img.vimg:hover {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+	}
+
+	#vcomment .vcards .vcard {
+		padding: 15px 20px 0 20px;
+		border-radius: 10px;
+		margin-bottom: 15px;
+		box-shadow: 0 0 4px 1px rgba(0, 0, 0, .12);
+		transition: all .3s
+	}
+
+	#vcomment .vcards .vcard:hover {
+		box-shadow: 0 0 8px 3px rgba(0, 0, 0, .12)
+	}
+
+	#vcomment .vcards .vcard .vh .vcard {
+		border: none;
+		box-shadow: none;
+	}
+</style>
+    
+  </div>
+
+<!-- comment script in themes\hexo-theme-bamboo\layout\_partial\scripts\index.ejs -->
+
+
+  </div>
+
+  <!-- 目录 -->
+  <!-- 文章详情页右侧目录 -->
+
+  <div class="toc-aside">
+    <div class="toc-main">
+      <div class="toc-aside-title">
+        <i class="fas fa-list-ul" aria-hidden="true"></i><span>本文目录</span>
+        
+          <div class="toc-open-close">本文目录</div>
+        
+      </div>
+      <div class="toc-content">
+        <div class="toc"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 手机端目录按钮 -->
+  <div id="toc-mobile-btn">
+    <i class="fas fa-list-ul" aria-hidden="true"></i>
+  </div>
+
+
+<script>
+  function closeToc(init) {
+    $(".toc-aside").css({'width': 0, 'padding': 0, 'transition': init ?  'noe' : 'width 0.3s' });
+    $(".toc-content").css({'width': 0});
+    $(".toc-aside-title span, .toc-aside-title i").css({'display': 'none'});
+    $(".main-content").css({'width': '75%', 'margin': '10px auto'});
+  };
+  function openToc() {
+    $(".main-content").css({'width': '65%', 'margin-right': '10px', 'margin-left': 'calc(35% - 350px)'});
+    $(".toc-aside").css({'width': '300px', 'padding': '0 10px', 'transition': 'width 0.3s'});
+    $(".toc-content").css({'width': '300px'});
+    $(".toc-aside-title span, .toc-aside-title i").css({'display': 'inline-block'});
+  }
+  function openBtnClickFn () {
+    let openOrCloseBtn = $('.toc-aside .toc-aside-title .toc-open-close');
+    let open = eval('' || 'true');
+    openOrCloseBtn.click(function() {
+      if (open) {
+        closeToc();
+        open = false;
+      } else {
+        openToc();
+        open = true;
+      }
+    });
+  };
+  openBtnClickFn();
+  initCloseTocWidth(true);
+
+  function initCloseTocWidth(init) {
+    if (window.innerWidth >= 992) {
+      let isClose = false;
+      isClose && closeToc(init)
+    }
+  }
+
+  document.addEventListener('pjax:complete', function () {
+    $(".toc-aside").css({'transition': 'no'});
+  })
+  document.addEventListener('pjax:complete', function () {
+    openBtnClickFn();
+  })
+  
+</script>
+
+  <!-- 图片放大 Wrap images with fancybox support -->
+  <script src="/js/wrapImage.js"></script>
+</div>
+
+<!-- 文章详情页背景图 -->
+<div id="appBgSwiper" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"
+	:style="{'background-color': bgColor ? bgColor : 'transparent'}">
+	<transition-group tag="ul" :name="names">
+		<li v-for='(image,index) in img' :key='index' v-show="index === mark" class="bg-swiper-box">
+			<img :src="image" class="bg-swiper-img no-lazy">
+		</li>
+	</transition-group>
+</div>
+<script>
+	var vm = new Vue({
+		el: '#appBgSwiper',
+		data: {
+			names: '' || 'fade' || 'fade', // translate-fade fade
+			mark: 0,
+			img: [],
+			bgColor: '',
+			time: null
+		},
+		methods: {   //添加方法
+			change(i, m) {
+				if (i > m) {
+					// this.names = 'fade';
+				} else if (i < m) {
+					// this.names = 'fade';
+				} else {
+					return;
+				}
+				this.mark = i;
+			},
+			prev() {
+				// this.names = 'fade';
+				this.mark--;
+				if (this.mark === -1) {
+					this.mark = 3;
+					return
+				}
+			},
+			next() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			autoPlay() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			play() {
+				let bgImgDelay = '' || '180000'
+				let delay = parseInt(bgImgDelay) || 180000;
+				this.time = setInterval(this.autoPlay, delay);
+			},
+			enter() {
+				clearInterval(this.time);
+			},
+			leave() {
+				this.play();
+			}
+		},
+		created() {
+			this.play()
+		},
+		beforeDestroy() {
+			clearInterval(this.time);
+		},
+		mounted() {
+			let prop = '' || '';
+			let isImg = prop.includes('.bmp') || prop.includes('.jpg') || prop.includes('.png') || prop.includes('.tif') || prop.includes('.gif') || prop.includes('.pcx') || prop.includes('.tga') || prop.includes('.exif') || prop.includes('.fpx') || prop.includes('.psd') || prop.includes('.cdr') || prop.includes('.pcd') || prop.includes('.dxf') || prop.includes('.ufo') || prop.includes('.eps') || prop.includes('.ai') || prop.includes('.raw') || prop.includes('.WMF') || prop.includes('.webp') || prop.includes('.jpeg') || prop.includes('http://') || prop.includes('https://')
+			if (isImg) {
+				let img = prop.split(',');
+				let configRoot = '/'
+				let arrImg = [];
+				img.forEach(el => {
+					var Expression = /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
+					var objExp = new RegExp(Expression);
+
+					if (objExp.test(el)) {
+						// http or https
+						arrImg.push(el);
+					} else {
+						// 非http or https开头
+						// 本地文件
+						let firstStr = el.charAt(0);
+						if (firstStr == '/') {
+							el = el.substr(1); // 删除第一个字符 '/',因为 configRoot最后一个字符为 /
+						}
+						el = configRoot + el;
+						arrImg.push(el);
+					}
+				})
+				this.img = arrImg;
+			} else {
+				this.bgColor = prop;
+			}
+		}
+	})
+</script>
+
+<style>
+	.bg-swiper-box {
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.bg-swiper-img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+</style>
+
+
+
+
+  <script>
+  function loadMermaid() {
+    if (document.getElementsByClassName('mermaid').length) {
+      if (window.mermaidJsLoad) mermaid.init()
+      else {
+        loadScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(() => {
+          window.mermaidJsLoad = true
+          mermaid.initialize({
+            theme: 'default',
+          })
+          if ('true') {
+            mermaid.init();
+          }
+        })
+      }
+    }
+  };
+  document.addEventListener("DOMContentLoaded", function () {
+    loadMermaid();
+  })
+
+  document.addEventListener('pjax:complete', function () {
+    loadMermaid();
+  })
+  
+</script>
+
 
       </main>
     </div>
