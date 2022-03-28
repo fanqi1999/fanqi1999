@@ -6,7 +6,7 @@
   <link href="http://fanqi1999.github.io/atom.xml" rel="self"/>
   
   <link href="http://fanqi1999.github.io/"/>
-  <updated>2022-03-18T09:33:39.007Z</updated>
+  <updated>2022-03-28T09:48:04.225Z</updated>
   <id>http://fanqi1999.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://fanqi1999.github.io/2022/03/18/keepalived%E7%BB%93%E5%90%88LVS/"/>
     <id>http://fanqi1999.github.io/2022/03/18/keepalived%E7%BB%93%E5%90%88LVS/</id>
     <published>2022-03-18T08:33:49.000Z</published>
-    <updated>2022-03-18T09:33:39.007Z</updated>
+    <updated>2022-03-28T09:48:04.225Z</updated>
     
     
       
@@ -29,9 +29,7 @@
         
         
     <summary type="html">&lt;p&gt;&lt;strong&gt;集群案例：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;配置环境&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;192.168.245.130    lvs01.linux.com&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;192.168.245.131   </summary>
+&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/03/28/TlZdOIM3JFzCucV.png&quot; class=&quot;lazyload placeholder&quot;</summary>
         
       
     
